@@ -1,5 +1,5 @@
-function hook_ttAnchorCursor(self, parent)
+function hook_cooltipAnchorCursor(self, parent)
   self:SetOwner(parent, "ANCHOR_CURSOR")
 end
 
-hooksecurefunc("GameTooltip_SetDefaultAnchor", hook_ttAnchorCursor)
+hooksecurefunc("GameTooltip_SetDefaultAnchor", hook_cooltipAnchorCursor)
